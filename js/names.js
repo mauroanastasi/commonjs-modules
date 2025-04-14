@@ -1,9 +1,10 @@
 function info(firstName,lastName){
     const nomeCompleto = {
-        "firstName":`Mauro`,
-        "lastName":`Anastasi`
+        "firstName":firstName,
+        "lastName":lastName
     }
+    return nomeCompleto
 }
 
-info("Mauro","Anastasi")
-console.log(info)
+const ilMioNome = info("Mauro","Anastasi")
+console.log(ilMioNome)
