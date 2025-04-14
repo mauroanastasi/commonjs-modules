@@ -5,3 +5,5 @@ function hobbies (hobbyOne, hobbyTwo, hobbyThree){
 
 const myhobbies = hobbies("videogames", "cinema", "food")
 console.log(myhobbies)
+
+module.exports=hobbies;
