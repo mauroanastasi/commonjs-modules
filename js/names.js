@@ -8,3 +8,5 @@ function info(firstName,lastName){
 
 const ilMioNome = info("Mauro","Anastasi")
 console.log(ilMioNome)
+
+module.exports = info;
