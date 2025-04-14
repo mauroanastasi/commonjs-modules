@@ -1,4 +1,4 @@
-function info(firstName,lastName){
+function fullName(firstName,lastName){
     const nomeCompleto = {
         "firstName":firstName,
         "lastName":lastName
@@ -6,7 +6,7 @@ function info(firstName,lastName){
     return nomeCompleto
 }
 
-const ilMioNome = info("Mauro","Anastasi")
+const ilMioNome = fullName("Mauro","Anastasi")
 console.log(ilMioNome)
 
-module.exports = info;
+module.exports = fullName;
