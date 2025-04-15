@@ -1,9 +1,6 @@
 function hobbies (hobbyOne, hobbyTwo, hobbyThree){
-    const whatsHobbies = [hobbyOne, hobbyTwo, hobbyThree]
+    let whatsHobbies = [hobbyOne, hobbyTwo, hobbyThree]
     return whatsHobbies
 }
-
-const myhobbies = hobbies("videogames", "cinema", "food")
-console.log(myhobbies)
 
 module.exports=hobbies;
